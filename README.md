@@ -1,13 +1,38 @@
-# React + TypeScript + Vite
+# Focus Garden — Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing landing page for the [Focus Garden](https://github.com/Iccrtlity/Focus-Garden) Chrome extension.
 
-Currently, two official plugins are available:
+Built with React, TypeScript, Vite, and Tailwind CSS v4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting started
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start local dev server |
+| `npm run build` | Type-check and build for production |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Project structure
+
+```
+src/
+  components/
+    Navbar.tsx          # Top navigation bar
+    ExtensionPreview.tsx # Interactive extension mockup
+    FeatureCard.tsx     # Individual feature card
+  App.tsx               # Page layout and sections
+  main.tsx              # Entry point
+public/
+  favicon.svg           # App icon
+```
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
