@@ -1,4 +1,4 @@
-# Focus Garden — Web
+# Focus Garden — Website
 
 Marketing landing page for the [Focus Garden](https://github.com/Iccrtlity/Focus-Garden) Chrome extension.
 
