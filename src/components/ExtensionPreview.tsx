@@ -1,5 +1,5 @@
 import { Play, RotateCcw, BarChart2, Settings } from 'lucide-react';
-import { colors, extension, layout } from '../lib/constants';
+import { colors, extension } from '../lib/constants';
 import type { TimerRingProps, GardenCardProps } from '../lib/types';
 
 const SVG_CIRCUMFERENCE = 2 * Math.PI * 44; // SVG circle radius
